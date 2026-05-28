@@ -1,0 +1,10 @@
+finance.yahoo.com
+marketscreener.com
+nseindia.com
+bseindia.com
+bloomberg.com
+sec.gov
+moneycontrol.com
+annualreports.com
+screener.in
+reuters.com

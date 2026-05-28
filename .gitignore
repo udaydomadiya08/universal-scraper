@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.log
+.env
+.DS_Store
+
+# Ignore generated output files
+*_Valuation_Data.json
+bulk_extractor.py
+input_doc_val_updated_final.docx
+
+# If you want to keep API keys private, uncomment this:
+gemini_config_10keys.json
+config.json

@@ -22,6 +22,18 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
+## Configuration (API Keys)
+
+Before running the scraper, you must set up your API keys. The project uses Groq for fast routing and Gemini for heavy text processing.
+
+1. **Groq API Key**: 
+   - Rename `config.example.json` to `config.json`.
+   - Replace the placeholder with your actual Groq API key.
+
+2. **Gemini API Keys**: 
+   - Rename `gemini_config_10keys.example.json` to `gemini_config_10keys.json`.
+   - Replace the placeholders with your Gemini API keys (the system supports multiple keys for auto-rotation to bypass rate limits).
+
 ## Usage
 
 ### Configuring Allowed Domains

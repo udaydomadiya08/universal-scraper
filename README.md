@@ -24,6 +24,16 @@ playwright install chromium
 
 ## Usage
 
+### Configuring Allowed Domains
+If you want to restrict the AI to only search specific, trusted websites, you can enable the `--filter` flag. By default, this will force the scraper to only pull data from the websites listed in the `allowed_domains.txt` file.
+
+To add your own trusted domains:
+1. Open the `allowed_domains.txt` file.
+2. Add one domain per line (e.g., `reddit.com` or `wsj.com`).
+3. Save the file.
+
+When you run `scraper.py` with `--filter`, it will automatically read from this list!
+
 ### 1. Single Query Extraction (`scraper.py`)
 Run a standard query. The scraper will find the best sources, download them concurrently, and extract the answer.
 ```bash
